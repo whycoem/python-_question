@@ -1,0 +1,16 @@
+
+names=['jamus','buke','kobe']
+print("I find a bigger table!")
+names.insert(0,'durant')
+names.insert(1,'kury')
+names.append('roke')
+for name in names:
+    print(f"People i want to invite is {name.title()}!\n")
+
+
+print("I am sorry Ladies and Gentlemen,I can only ask two people!")
+amount=len(names)
+print("people who join the dinner:")
+print(amount)
+names.reverse()
+print(names)

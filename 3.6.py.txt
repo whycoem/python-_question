@@ -1,0 +1,8 @@
+#接3—4和3—5
+names=['jamus','buke','kobe']
+print("I find a bigger table!")
+names.insert(0,'durant')
+names.insert(1,'kury')
+names.append('roke')
+for name in names:
+    print(f"People i want to invite is {name.title()}!\n")

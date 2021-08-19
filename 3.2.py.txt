@@ -1,0 +1,4 @@
+group=['wjc','td','lyh','yyl','why']
+for name in group:
+    print(f"Hello,{name.title()};")
+    

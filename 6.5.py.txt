@@ -1,0 +1,7 @@
+rivers={'changjiang':'china','ymx':'baxi','nlh':'aiji'}
+for key,value in rivers.items():
+    print(f"The {key} runs through {value}.")
+for name in rivers.keys():
+    print(name)
+for country in rivers.values():
+    print(country)

@@ -1,0 +1,4 @@
+animals=['dog','cat','pig']
+for animal in animals:
+    print(f"a {animal.title()} would make a great pet.")
+print("they are all cute!")

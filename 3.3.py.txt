@@ -1,0 +1,4 @@
+traffic=['honda','yamaha','suzuki']
+for name in traffic:
+    print(f"I would like to own a {name.title()} motorcycle;")
+    

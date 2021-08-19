@@ -1,0 +1,5 @@
+def favorate_book(title):
+    """显示最喜欢的书"""
+    print(f"one of my favorate book is {title}.")
+
+favorate_book("Alice in wonderland")

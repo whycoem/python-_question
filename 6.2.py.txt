@@ -1,0 +1,4 @@
+favorate_num = {'alice':1,'bob':2,'carol':3,'dog':4,'egg':5}
+for key,value in favorate_num.items():
+    print(key.title())
+    print(value)
